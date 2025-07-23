@@ -1,7 +1,4 @@
-{
-  "name": "keepers-calendar",
+"name": "keepers-calendar",
   "scripts": {
-    "build": "npm --prefix client run build",
-    "dev": "npm --prefix server run dev"
-  }
-}
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "install": "npm --prefix client install"

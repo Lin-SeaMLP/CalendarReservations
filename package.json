@@ -1,0 +1,7 @@
+{
+  "name": "keepers-calendar",
+  "scripts": {
+    "build": "npm --prefix client run build",
+    "dev": "npm --prefix server run dev"
+  }
+}

@@ -1,5 +1,8 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "client/build",
-  "installCommand": "npm install"
+  "name": "keepers-calendar",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "install": "npm --prefix client install"
+  }
 }

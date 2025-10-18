@@ -1,0 +1,1 @@
+{"name": "calendar-reservations-client", "version": "0.0.1", "private": true, "scripts": {"build": "mkdir -p build && echo '<!doctype html><meta charset=\"utf-8\"><title>CalendarReservations</title><h1>Placeholder build</h1>' > build/index.html"}, "dependencies": {}}
